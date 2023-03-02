@@ -49,7 +49,7 @@ builder.build({
         }
     }
 }).then(() => {
-    console.log('le build est terminé')
+    console.log('La instalacion se ha completado.')
 }).catch(err => {
-    console.error('Error during build!', err)
+    console.error('Error durante la instalacion', err)
 })
